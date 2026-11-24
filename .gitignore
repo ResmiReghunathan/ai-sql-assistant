@@ -1,0 +1,12 @@
+# secrets and real data
+.env
+*.key
+db/real_salary.sql
+backup.sql
+
+# build output
+target/
+node_modules/
+dist/
+.idea/
+*.iml

@@ -1,0 +1,12 @@
+services:
+  pgvector:
+    image: postgres:16
+    container_name: shopdb
+    environment:
+      POSTGRES_DB: shopdb
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: admin123
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./db/init.sql:/docker-entrypoint-initdb.d/init.sql
