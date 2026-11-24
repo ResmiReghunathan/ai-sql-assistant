@@ -3,7 +3,7 @@
 Ask business questions in plain English and get answers from a PostgreSQL database.
 An LLM agent reads the schema, writes a read-only SQL query, runs it through a safe tool, and explains the result.
 
-screenshot/screenshot 1.png
+![Screenshot](screenshots/screenshot 1.png)
 
 ## Tech stack
 Java 21 · Spring Boot · Spring AI (tool calling) · Google Gemini API · PostgreSQL · Docker · React (Vite)
